@@ -153,10 +153,8 @@ public:
         auto temp=root;
 
         while(temp->left) {
-            cout << "a";
             ite.stk->add(temp);
             temp = temp->left;
-            cout << "s";
         }
         ite.igual(temp);
         return ite;
